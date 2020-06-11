@@ -1,0 +1,10 @@
+<!--pages/chapter/chapter.wxml-->
+<view class="chapter">
+  <view class="head">
+    <text>共计{{list.length}}章节</text>
+    <image src="../../assets/reverse.png" bindtap="reverse"></image>
+  </view>
+  <view wx:for="{{list}}" class="showlist {{index==active?'active':''}}" bindtap="handleClick" data-index="{{index}}" data-id="{{item.id}}">
+    <text class="title">{{item.name}}</text>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+<!--pages/classify/childComponents/classfiy-choose/classfiy-choose.wxml-->
+<view class="choose">
+  <view class="channle">
+    <text bindtap="handleChoose" data-id="1" class="{{active==1?'man-active':''}}">男频</text>
+    <text bindtap="handleChoose" data-id="2" class="{{active==2?'woman-active':''}}">女频</text>
+  </view>
+</view>

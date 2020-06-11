@@ -1,0 +1,21 @@
+<!--pages/bookshelf/bookshelf.wxml-->
+<banner list="{{banner}}"></banner>
+
+<view class="showlist">
+  <view class="list-item" wx:for="{{books}}" 
+                          bindtap="handleClick" 
+                          data-bid="{{item.book_id}}" 
+                          data-cid="{{item.read_log_chapter_id==null?item.first_chapter_id:item.read_log_chapter_id}}">
+    <view class="item-img">
+      <image src="{{item.img}}"></image>
+    </view>
+    <view class="item-info">
+      <text class="item-title">{{item.name}}</text>
+      <text>{{item.serial_status}}</text>
+      <text wx:if="{{item.read_log_chapter_name!=null}}">阅读至：{{item.read_log_chapter_name}}</text>
+      <text wx:if="{{item.read_log_chapter_name==null}}">阅读至:还未开始阅读</text>
+    </view>
+  </view>
+</view>
+
+<empty wx:if="{{books.length==0}}"></empty>

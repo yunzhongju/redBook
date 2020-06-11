@@ -1,0 +1,46 @@
+/* pages/bookshelf/bookshelf.wxss */
+
+.showlist {
+  padding: 30rpx 30rpx;
+}
+
+.showlist .list-item {
+  background: #f8f8f8;
+  align-items: center;
+  margin-bottom: 30rpx;
+  border-radius: 20rpx;
+  display: flex;
+  height: 340rpx;
+  /* justify-content: space-between; */
+}
+
+.showlist .list-item .item-img {
+  width: 200rpx;
+  height: 300rpx;
+  border-radius: 10rpx;
+  box-shadow: 0 5rpx 10rpx black;
+}
+
+.showlist .list-item .item-img image {
+  height: 100%;
+  width: 100%;
+  border-radius: 10rpx;
+}
+
+.showlist .list-item .item-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+  align-items: center;
+  justify-content: center;
+}
+
+.showlist .list-item .item-info text {
+  color: #d4d4d4;
+}
+
+.showlist .list-item .item-info .item-title {
+  color: #333;
+  font-size: 40rpx;
+  font-weight: 600;
+}

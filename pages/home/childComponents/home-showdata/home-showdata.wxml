@@ -1,0 +1,20 @@
+<!--pages/home/childComponents/home-showdata/home-showdata.wxml-->
+<view class="template">
+  <view class="list" wx:for="{{list}}">
+    <view class="template1" wx:key="{{item.id}}">
+      <text class="title">{{item.name}}</text>
+      <view class="showlist">
+        <view wx:if="{{item.template==1}}">
+          <template1 data="{{item.templatebook}}"></template1>
+        </view>
+        <view class="template2" wx:if="{{item.template==2}}">
+          <template2 data="{{item.templatebook}}"></template2>
+        </view>
+        <view class="template3" wx:if="{{item.template==3}}">
+          <template2 data="{{redbook1}}"></template2>
+          <template1 data="{{redbook2}}"></template1>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

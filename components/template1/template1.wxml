@@ -1,0 +1,7 @@
+<!--components/template1/template1.wxml-->
+<view class="template1">
+  <view wx:for="{{data}}" wx:for-item="each" class="list-each" wx:key="each.book_id" bindtap="handleClick" data-id="{{each.book_id||each.id}}">
+    <image src="{{each.img}}"></image>
+    <text>{{each.name}}</text>
+  </view>
+</view>

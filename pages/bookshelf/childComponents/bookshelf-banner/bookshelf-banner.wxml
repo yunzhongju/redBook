@@ -1,0 +1,21 @@
+<!--pages/bookshelf/childComponents/bookshelf-banner/bookshelf-banner.wxml-->
+<view class="banner">
+  <swiper autoplay="true"  indicator-color="#999" indicator-active-color="#049fff">
+    <swiper-item wx:for="{{list}}" bindtap="handleClick" data-id="{{item.book_id}}">
+      <view class="info">
+        <view class="showimg">
+          <image src="{{item.img}}"></image>
+        </view>
+        <view class="right">
+          <text class="title">{{item.name}}</text>
+          <view class="desc">
+            <scroll-view style="height: 44px;" scroll-y="true">
+              <text>{{item.desc}}</text>
+            </scroll-view>
+          </view>
+          <text class="cat">{{item.cat_name}}</text>
+        </view>
+      </view>
+    </swiper-item>
+  </swiper>
+</view>

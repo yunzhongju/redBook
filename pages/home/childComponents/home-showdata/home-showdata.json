@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "template1": "../../../../components/template1/template1",
+    "template2": "../../../../components/template2/template2"
+  }
+}

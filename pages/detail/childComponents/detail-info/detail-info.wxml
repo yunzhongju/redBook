@@ -1,0 +1,44 @@
+<!--pages/detail/childComponents/detail-info/detail-info.wxml-->
+<wxs src="../../../../filter/filter.wxs" module="filter" />
+
+<view class="info">
+  <view class="info-bg">
+    <image src="../../../../assets/bg.jpg" style="opacity: 0.2;"></image>
+    <view class="book-img">
+      <image src="{{data.img}}"></image>
+    </view>
+    <view class="info-detail">
+      <text class="title">{{data.name}}</text>
+      <view class="info-detail-item">
+        <text>{{data.pen_name}}</text>
+        <text class="ser">{{data.serial_status}}</text>
+        <text>{{data.cat_name}}</text>
+      </view>
+    </view>
+
+    <view class="statue">
+      <view>
+        <text>{{filter.numToFixed(data.view_count)}}</text>万人正在追
+      </view>
+      <view class="line"></view>
+      <view>
+        <text>{{filter.numToFixed(data.word_count)}}</text>万字连载中
+      </view>
+    </view>
+  </view>
+
+  <scroll-view scroll-y="true" class="desc">
+    <text class="desc">{{data.desc}}</text>
+  </scroll-view>
+
+  <view class="cat" bindtap="handleClick">
+    <text class="title">目录</text>
+    <text class="chapter">{{data.last_chapter_name}}</text>
+    <text class="t">{{filter.handleTime(data.last_chapter_created_at)}} ></text>
+  </view>
+
+  <view class="like">
+    <text class="title">猜你喜欢</text>
+    <text class="exchange" bindtap="handleWrap">换一换</text>
+  </view>
+</view>

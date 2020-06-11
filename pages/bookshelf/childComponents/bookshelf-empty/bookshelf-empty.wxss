@@ -1,0 +1,16 @@
+/* pages/bookshelf/childComponents/bookshelf-empty/bookshelf-empty.wxss */
+
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500rpx;
+  color: #e6e6e6;
+  flex-direction: column;
+}
+
+.empty image {
+  height: 100rpx;
+  width: 150rpx;
+  margin-bottom: 20rpx;
+}

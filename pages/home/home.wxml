@@ -1,0 +1,16 @@
+<!--pages/home/home.wxml-->
+<view class="home">
+  <home-navbar bind:cancle="handleCancle"></home-navbar>
+
+  <banner advs="{{advs}}" wx:if="{{isshow}}">
+    <view class="banner-bg"></view>
+  </banner>
+
+  <home-showdata list="{{template}}" redbook1="{{redbook1}}" redbook2="{{redbook2}}">
+  </home-showdata>
+
+  <home-bangd data="{{condition}}" wx:if="{{sex==3}}" bind:choose="handleChoose" bind:sort="handleSort" bind:getMore="getMore">
+  </home-bangd>
+
+  <footer wx:if="{{sex!=3}}"></footer>
+</view>

@@ -1,0 +1,18 @@
+<!--pages/home/childComponents/home-bangd/home-bangd.wxml-->
+<view class="bangd">
+  <view class="left">
+    <view class="chooses">
+      <text wx:for="{{sexs}}" class="{{isshow==item.id?'active-chooses':''}}" bindtap="handleClick" data-id="{{index+1}}">
+            {{item.name}}
+      </text>
+    </view>
+    <view class="sort">
+      <text wx:for="{{list}}" class="{{isshowsort==index+1?'active-sort':''}}" bindtap="handleSort" data-id="{{index+1}}">{{item}}</text>
+    </view>
+  </view>
+  <view class="right">
+    <scroll-view scroll-y="true" style="height: 960rpx;" bindscrolltolower="handleMore">
+      <template2 data="{{data}}"></template2>
+    </scroll-view>
+  </view>
+</view>

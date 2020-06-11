@@ -1,0 +1,23 @@
+<!--components/template2/template2.wxml-->
+<view class="tempalte2">
+  <view class="list">
+    <view class="list-item" wx:for="{{data}}" bindtap="handleClick" data-id="{{item.book_id||item.id}}">
+      <view class="showimg">
+        <image src="{{item.img}}"></image>
+      </view>
+      <view class="showinfo">
+        <text class="title">{{item.name}}</text>
+        <view class="desc">
+          <text>{{item.desc}}</text>
+        </view>
+        <view class="showsta">
+          <view class="pen_name">
+            <text>{{item.pen_name}}</text>
+          </view>
+          <text class="status">{{item.serial_status}}</text>
+          <text class="cat">{{item.cat_name}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

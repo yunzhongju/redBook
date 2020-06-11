@@ -1,0 +1,29 @@
+/* pages/classify/classify.wxss */
+
+.classify {
+  height: 590px;
+  overflow: hidden;
+}
+
+.showlist {
+  margin-top: 30rpx;
+}
+
+.pull {
+  position: fixed;
+  top: 20rpx;
+  left: 20rpx;
+  z-index: 11;
+}
+
+.show-view {
+  margin-top: 90rpx;
+}
+
+.choosesex {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}

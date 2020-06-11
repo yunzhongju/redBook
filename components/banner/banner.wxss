@@ -1,0 +1,26 @@
+/* components/banner/banner.wxss */
+
+.banner {
+  height: 120rpx;
+  position: relative;
+}
+
+.banner .swiper {
+  position: absolute;
+  top: 10rpx;
+  left: 20rpx;
+  width: 95%;
+  box-shadow: 0 5px 10px #888;
+  height: 300rpx;
+  border-radius: 30rpx;
+}
+
+.banner .swiper .swiper-item {
+  border-radius: 30rpx;
+}
+
+.banner .swiper .swiper-item image {
+  height: 100%;
+  width: 100%;
+  border-radius: 30rpx;
+}

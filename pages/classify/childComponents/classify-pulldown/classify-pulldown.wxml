@@ -1,0 +1,5 @@
+<!--pages/classify/childComponents/classify-pulldown/classify-pulldown.wxml-->
+<view class="pulldown">
+  <!-- <image src="../../../../assets/down.png"></image> -->
+  <text>筛选👇</text>
+</view>

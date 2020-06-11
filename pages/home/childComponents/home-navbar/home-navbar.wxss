@@ -1,0 +1,51 @@
+/* pages/home/childComponents/home-navbar/home-navbar.wxss */
+
+.home_navbar {
+  background-color: #049fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20rpx;
+  color: #7ecdff;
+}
+
+.nav_item {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: space-around;
+  padding-bottom: 20rpx;
+}
+
+.nav_serach {
+  flex: 1;
+  background: #81cfff;
+  border-radius: 60rpx;
+  height: 60rpx;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.serach_color {
+  color: #fff;
+  font-size: 33rpx;
+}
+
+.nav_serach image {
+  height: 40rpx;
+  width: 40rpx;
+  position: absolute;
+  left: 30rpx;
+  top: 13rpx;
+}
+
+.nav_serach input {
+  margin-left: 40rpx;
+}
+
+.active {
+  border-bottom: 10rpx solid white;
+  color: #fff;
+  font-size: 45rpx;
+  padding-bottom: 10rpx;
+}

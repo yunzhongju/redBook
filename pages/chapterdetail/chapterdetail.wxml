@@ -1,0 +1,13 @@
+<!--pages/chapterdetail/chapterdetail.wxml-->
+<view class="chapterdetail">
+  <text class="title">{{data.name}}</text>
+  <text class="content">{{data.content}}</text>
+  <view class="next">
+    <text bindtap="btnClick">下一章</text>
+  </view>
+  <view class="footer">
+    <text bindtap="upPage">上一章</text>
+    <text class="line"></text>
+    <text bindtap="toList">目录</text>
+  </view>
+</view>

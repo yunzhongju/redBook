@@ -1,0 +1,13 @@
+<!--pages/detail/detail.wxml-->
+<info data="{{detail}}" bind:update="update"></info>
+<view class="random">
+  <template1 data="{{random_books}}"></template1>
+</view>
+
+<view class="showbtn">
+  <text class="bookshelf" wx:if="{{bookshelf}}">已在书架</text>
+  <text class="bookshelf" wx:if="{{!bookshelf}}" bindtap="handleShelf">加入书架</text>
+  <text class="read" bindtap="handleClick" wx:if="{{!isread}}" data-id="{{detail.first_chapter_id}}">立即阅读</text>
+  <text class="read" bindtap="handleClick" wx:if="{{isread}}" data-id="{{readlog.data.chapter_id}}">继续阅读</text>
+</view>
+<footer></footer>

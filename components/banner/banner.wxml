@@ -1,0 +1,9 @@
+<!--components/banner/banner.wxml-->
+<view class="banner">
+  <slot></slot>
+  <swiper class="swiper" indicator-dots="true" indicator-color="rgba(4, 159, 255, .3)" autoplay="true">
+    <swiper-item wx:for="{{advs}}" class="swiper-item" bindtap="handleClick" data-id="{{item.id}}">
+      <image src="{{item.to_img}}"></image>
+    </swiper-item>
+  </swiper>
+</view>

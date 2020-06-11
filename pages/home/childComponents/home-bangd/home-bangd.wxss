@@ -1,0 +1,66 @@
+/* pages/home/childComponents/home-bangd/home-bangd.wxss */
+
+.bangd {
+  display: flex;
+  position: absolute;
+  top: 98rpx;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.bangd .left {
+  width: 20%;
+  height: 973rpx;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  background: #f5f5f5;
+  color: #999;
+  font-size: 40rpx;
+}
+
+.bangd .left .chooses {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #999;
+  font-weight: 600;
+}
+
+.bangd .left .chooses text {
+  padding: 0rpx 30rpx;
+}
+
+.bangd .left .sort {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bangd .left .sort text {
+  padding: 40rpx 10rpx;
+  box-sizing: border-box;
+  margin-left: 0;
+  font-weight: 600;
+}
+
+.bangd .right {
+  flex: 1;
+  overflow: hidden;
+  height: 955rpx;
+}
+
+.active-chooses {
+  color: white;
+  background: #049fff;
+  border-bottom-left-radius: 10rpx;
+  border-bottom-right-radius: 10rpx;
+}
+
+.active-sort {
+  background: white;
+  border-left: 7rpx solid #049fff;
+  color: #1e1e1e;
+}

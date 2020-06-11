@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "channle": "./childComponents/classfiy-choose/classfiy-choose",
+    "cla-sort": "./childComponents/classify-sort/classify-sort",
+    "cla-pull": "./childComponents/classify-pulldown/classify-pulldown",
+    "template2": "../../../../components/template2/template2"
+  },
+  "navigationBarTitleText": "分类",
+  "enablePullDownRefresh": true
+}

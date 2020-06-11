@@ -1,0 +1,11 @@
+<!--components/footer/footer.wxml-->
+<view class="footer">
+  <image src="../../assets/book.png"></image>
+  <view class="show">
+    <text class="title">红树文学</text>
+    <view class="info">
+      <text class="left-driver">沉浮于世</text>
+      <text>纵读人间</text>
+    </view>
+  </view>
+</view>

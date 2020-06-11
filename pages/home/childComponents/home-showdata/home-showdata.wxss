@@ -1,0 +1,24 @@
+/* pages/home/childComponents/home-showdata/home-showdata.wxss */
+
+.template {
+  margin-top: 240rpx;
+}
+
+.template .list {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20rpx;
+}
+
+.title {
+  border-left: 10rpx solid #049fff;
+  padding-left: 30rpx;
+  color: black;
+  font-weight: 700;
+  font-size: 50rpx;
+}
+
+.template .list .showlist {
+  margin-top: 20rpx;
+}
+

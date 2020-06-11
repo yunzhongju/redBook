@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "home-navbar": "./childComponents/home-navbar/home-navbar",
+    "home-showdata": "./childComponents/home-showdata/home-showdata",
+    "home-bangd": "./childComponents/home-bangd/home-bangd",
+    "banner": "../../components/banner/banner",
+    "footer": "../../components/footer/footer"
+  },
+  "navigationBarTitleText": "书城"
+}

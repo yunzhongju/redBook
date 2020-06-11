@@ -1,0 +1,41 @@
+/* components/footer/footer.wxss */
+
+.footer {
+  display: flex;
+  height: 300rpx;
+  align-items: center;
+  color: #e3e3e3;
+  justify-content: center;
+}
+
+.footer image {
+  height: 100rpx;
+  width: 150rpx;
+}
+
+.footer text {
+  text-align: center;
+}
+
+.footer .show {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .info {
+  display: flex;
+}
+
+.footer .info text {
+  margin-left: 20rpx;
+}
+
+.footer .info .left-driver {
+  padding-right: 20rpx;
+  border-right: 3rpx solid #e3e3e3;
+}
+
+.footer .title {
+  font-size: 55rpx;
+  padding-bottom: 10rpx;
+}

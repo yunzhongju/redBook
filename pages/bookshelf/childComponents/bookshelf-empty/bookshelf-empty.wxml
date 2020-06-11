@@ -1,0 +1,5 @@
+<!--pages/bookshelf/childComponents/bookshelf-empty/bookshelf-empty.wxml-->
+<view class="empty">
+  <image src="../../../../assets/book_empty.png"></image>
+  <text>书架空的，快去看书吧!</text>
+</view>

@@ -1,0 +1,23 @@
+/* components/template1/template1.wxss */
+
+.template1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.template1 .list-each {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 500rpx;
+  color: #5c5c5c;
+  text-align: center;
+}
+
+.template1 .list-each image {
+  width: 100%;
+  height: 70%;
+  border-radius: 20rpx;
+  box-shadow: 0rpx 5rpx 5rpx black;
+  margin-bottom: 20rpx;
+}

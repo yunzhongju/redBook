@@ -1,0 +1,41 @@
+/* pages/classify/childComponents/classfiy-choose/classfiy-choose.wxss */
+
+.choose {
+  height: 100rpx;
+  background: #049fff;
+  display: flex;
+  justify-content: center;
+  border-bottom-left-radius: 25rpx;
+  border-bottom-right-radius: 25rpx;
+}
+
+.choose .channle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40rpx;
+  background: #fff;
+  width: 270rpx;
+  height: 70rpx;
+}
+
+.choose .channle text {
+  flex-basis: 49%;
+  text-align: center;
+}
+
+.man-active {
+  background: #049fff;
+  color: #fff;
+  height: 95%;
+  border-top-left-radius: 40rpx;
+  border-bottom-left-radius: 40rpx;
+}
+
+.woman-active {
+  background: #049fff;
+  color: #fff;
+  height: 95%;
+  border-top-right-radius: 40rpx;
+  border-bottom-right-radius: 40rpx;
+}

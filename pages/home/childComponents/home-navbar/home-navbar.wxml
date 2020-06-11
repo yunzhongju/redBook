@@ -1,0 +1,10 @@
+<!--pages/home/childComponents/home-navbar/home-navbar.wxml-->
+<view class="home_navbar">
+  <view class="nav_item">
+    <text wx:for="{{nav}}" class="{{isshow==item.id?'active':''}}" bindtap="handleClick" data-id="{{item.id}}">{{item.name}}</text>
+  </view>
+  <view class="nav_serach" bindtap="handleSerach">
+    <image src="../../../../assets/serach.png"></image>
+    <input placeholder="搜索你想看的书" placeholder-class="serach_color"></input>
+  </view>
+</view>

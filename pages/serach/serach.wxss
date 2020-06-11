@@ -1,0 +1,86 @@
+/* pages/serach/serach.wxss */
+
+.serach {
+  padding: 0 20rpx;
+}
+
+.serachinput {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.serachinput input {
+  flex-basis: 80%;
+  height: 100rpx;
+}
+
+.serachinput text {
+  flex: 1;
+  text-align: center;
+}
+
+.serachinput image {
+  position: absolute;
+  top: 10rpx;
+  left: 5rpx;
+  height: 100rpx;
+  width: 100rpx;
+}
+
+.what {
+  background: #f5f5f5;
+  border-radius: 40rpx;
+  text-align: center;
+}
+
+.recomment {
+  display: flex;
+  flex-direction: column;
+  margin: 20rpx 0;
+}
+
+.recomment .title {
+  font-size: 50rpx;
+  font-weight: 500;
+  color: #1e1e1e;
+  margin-bottom: 20rpx;
+}
+
+.recomment .list-item {
+  display: flex;
+  margin-bottom: 10rpx;
+  align-items: center;
+}
+
+.recomment .list-item .index0 {
+  border-radius: 50%;
+  border: 1rpx solid #f5f5f5;
+  padding: 10rpx 10rpx;
+  background: #c9c9c9;
+  height: 40rpx;
+  width: 40rpx;
+  text-align: center;
+  margin-right: 20rpx;
+}
+
+.recomment .list-item .index0 text {
+  color: #fff;
+}
+
+.recomment .list-item text {
+  color: #333;
+}
+
+.index1 {
+  background: #f24724;
+}
+
+.index2 {
+  background: #f28724;
+}
+
+.index3 {
+  background: #fbc458;
+}

@@ -1,0 +1,16 @@
+<!--pages/classify/childComponents/classify-sort/classify-sort.wxml-->
+<view class="classify-sort">
+  <view class="classify-cat">
+    <text class="showtext {{cat_active==''?'active':''}}" bindtap="handleChange" data-cat_id="">全部</text>
+    <text wx:for="{{cat}}" class="showtext {{cat_active==item.id?'active':''}}" bindtap="handleChange" data-cat_id="{{item.id}}">{{item.cat_name}}</text>
+  </view>
+  <view class="classify-ser">
+    <text class="showtext {{ser_active==''?'active':''}}" bindtap="handleChange" data-ser_id="">全部</text>
+    <text class="showtext {{ser_active==1?'active':''}}" bindtap="handleChange" data-ser_id="1">连载中</text>
+    <text class="showtext {{ser_active==2?'active':''}}" bindtap="handleChange" data-ser_id="2">已完本</text>
+  </view>
+  <view class="classify-sor">
+    <text class="showtext {{sor_active==1?'active':''}}" bindtap="handleChange" data-sor_id="1">按人气</text>
+    <text class="showtext {{sor_active==2?'active':''}}" bindtap="handleChange" data-sor_id="2">按新书</text>
+  </view>
+</view>

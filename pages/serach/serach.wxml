@@ -1,0 +1,22 @@
+<!--pages/serach/serach.wxml-->
+<view class="serach">
+  <view class="serachinput" wx:if="{{isshow}}">
+    <image src="../../assets/serach.png"></image>
+    <input placeholder="搜索书名/作者" placeholder-class="what" bindinput="btnserach"></input>
+    <text bindtap="handleSer">搜索</text>
+  </view>
+
+  <view class="recomment" wx:if="{{isshow}}">
+    <text class="title">热门搜索</text>
+    <view class="list-item" wx:for="{{recomment}}" bindtap="handleClick" data-id="{{item.id}}a">
+      <view class="index0">
+        <text>{{index+1}}</text>
+      </view>
+      <text>{{item.name}}</text>
+    </view>
+  </view>
+
+  <scroll-view scroll-y="true" style="height: 1200rpx;" bindscrolltolower="handleMore">
+    <template2 data="{{list}}"></template2>
+  </scroll-view>
+</view>

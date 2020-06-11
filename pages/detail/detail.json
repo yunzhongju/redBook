@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "info": "./childComponents/detail-info/detail-info",
+    "template1": "../../../../components/template1/template1",
+    "footer": "../../components/footer/footer"
+  }
+}

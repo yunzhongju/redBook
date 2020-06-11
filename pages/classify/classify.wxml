@@ -1,0 +1,12 @@
+<!--pages/classify/classify.wxml-->
+<view class="classify">
+  <channle bind:choose="handleChannle" class="choosesex"></channle>
+
+  <cla-sort cat="{{category}}" wx:if="{{isshow}}" bind:handleParams="handleParams"></cla-sort>
+
+  <cla-pull class="pull" wx:if="{{!isshow}}" bindtap="handlePull"></cla-pull>
+
+  <scroll-view scroll-y style="height:560px;" class="showlist" bindscrolltolower="handleMore" class="show-view">
+    <template2 data="{{list}}"></template2>
+  </scroll-view>
+</view>

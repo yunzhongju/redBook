@@ -1,0 +1,146 @@
+/* pages/detail/childComponents/detail-info/detail-info.wxss */
+
+.info {
+}
+
+.info .info-bg {
+  position: relative;
+  height: 320px;
+}
+
+.info .info-bg .book-img {
+  position: absolute;
+  top: 10rpx;
+  left: 270rpx;
+  height: 300rpx;
+  width: 200rpx;
+  box-shadow: 0 10rpx 10rpx black;
+  z-index: 10;
+  border-radius: 10rpx;
+}
+
+.info .info-bg .book-img image {
+  height: 100%;
+  width: 100%;
+  border-radius: 20rpx;
+}
+
+.info-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 350rpx;
+  width: 100%;
+  left: 0;
+  z-index: 10;
+}
+
+.info-detail .title {
+  color: #333;
+  font-size: 50rpx;
+  font-weight: 600;
+  padding-bottom: 15rpx;
+}
+
+.info-detail .info-detail-item {
+  display: flex;
+}
+
+.info-detail .info-detail-item text {
+  color: #b4b4b4;
+  font-weight: 400;
+}
+
+.info-detail .info-detail-item .ser {
+  border-left: 5rpx solid #b4b4b4;
+  border-right: 5rpx solid #b4b4b4;
+  padding: 0 10rpx;
+  margin: 0 10rpx;
+}
+
+.statue {
+  position: absolute;
+  top: 520rpx;
+  left: 0;
+  height: 70px;
+  background: #b0b0b0;
+  z-index: 1;
+  width: 100%;
+  opacity: 0.9;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  border-top-left-radius: 30rpx;
+  border-top-right-radius: 30rpx;
+  justify-content: space-around;
+}
+
+.statue text {
+  font-size: 50rpx;
+  font-weight: 600;
+}
+
+.statue .line {
+  border: 5rpx solid #d4d4d4;
+  height: 60rpx;
+}
+
+.desc {
+  height: 45px;
+  overflow: hidden;
+  padding: 0 20rpx;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+}
+
+.cat {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cat .title {
+  color: black;
+  font-size: 45rpx;
+  font-weight: 700;
+}
+
+.cat text {
+  color: #676767;
+}
+
+.cat .chapter {
+  width: 300rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  word-break: break-al;
+}
+
+.cat .t {
+  color: #c9c9ca;
+}
+
+.like {
+  display: flex;
+  padding: 10rpx 20rpx;
+  justify-content: space-between;
+  margin-top: 20rpx;
+}
+
+.like .title {
+  color: black;
+  font-size: 45rpx;
+  font-weight: 700;
+}
+
+.like .exchange {
+  border: 2rpx solid #b4b4b4;
+  color: #01a2ff;
+  padding: 5rpx 20rpx;
+  border-radius: 30rpx;
+}

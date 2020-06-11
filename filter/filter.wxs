@@ -1,0 +1,18 @@
+var numToFixed = function(num) {
+  if (typeof num !== 'number') {
+    num = Number(num)
+  }
+  return (num / 10000).toFixed(1)
+}
+
+var handleTime = function(t) {
+  if (typeof t !== 'string') {
+    t = String(num)
+  }
+  return t.split(" ")[0]
+}
+
+module.exports = {
+  numToFixed: numToFixed,
+  handleTime: handleTime
+}

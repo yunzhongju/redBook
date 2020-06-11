@@ -1,0 +1,16 @@
+/* pages/classify/childComponents/classify-pulldown/classify-pulldown.wxss */
+
+.pulldown {
+  display: flex;
+  align-items: center;
+  height: 100rpx;
+  width: 100%;
+}
+
+.pulldown text {
+  color: white;
+  font-weight: 700;
+  border-radius: 30rpx;
+  width: 150rpx;
+  text-align: center;
+}

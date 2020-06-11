@@ -1,0 +1,35 @@
+/* pages/detail/detail.wxss */
+
+.random {
+  padding: 20rpx 20rpx;
+}
+
+.showbtn {
+  position: fixed;
+  bottom: 50rpx;
+  left: 70rpx;
+  width: 80%;
+  height: 100rpx;
+  display: flex;
+  text-align: center;
+  border-radius: 100rpx;
+  box-shadow: 0 5rpx 10rpx black;
+}
+
+.showbtn text {
+  flex-basis: 50%;
+  font-size: 40rpx;
+  font-weight: 600;
+  padding: 20rpx 40rpx;
+  border-top-right-radius: 50rpx;
+  border-bottom-right-radius: 50rpx;
+}
+
+.showbtn .bookshelf {
+  color: #2fb3ff;
+}
+
+.showbtn .read {
+  color: #fff;
+  background: #2fb3ff;
+}

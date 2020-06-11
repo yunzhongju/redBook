@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "banner": "./childComponents/bookshelf-banner/bookshelf-banner",
+    "empty": "./childComponents/bookshelf-empty/bookshelf-empty"
+  },
+  "navigationBarTitleText": "书架",
+  "enablePullDownRefresh": true
+}

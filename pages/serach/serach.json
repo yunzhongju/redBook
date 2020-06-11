@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "template2": "../../components/template2/template2"
+  },
+  "navigationBarTitleText": "搜索",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black"
+}

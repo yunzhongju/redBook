@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/classify/classify",
+    "pages/bookshelf/bookshelf",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/profile/profile",
+    "pages/detail/detail",
+    "pages/chapter/chapter",
+    "pages/chapterdetail/chapterdetail",
+    "pages/serach/serach"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#049fff",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/bookshelf/bookshelf",
+        "text": "书架",
+        "iconPath": "assets/tabs/book_shelf.png",
+        "selectedIconPath": "assets/tabs/book_shelf_h.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "书城",
+        "iconPath": "assets/tabs/book_store.png",
+        "selectedIconPath": "assets/tabs/book_store_h.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "assets/tabs/book_classify.png",
+        "selectedIconPath": "assets/tabs/book_classify_h.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "assets/tabs/book_profile.png",
+        "selectedIconPath": "assets/tabs/book_profile_h.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

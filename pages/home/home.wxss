@@ -1,0 +1,12 @@
+/* pages/home/home.wxss */
+
+.banner-bg {
+  background: #049fff;
+  height: 150rpx;
+  border-bottom-left-radius: 30rpx;
+  border-bottom-right-radius: 30rpx;
+}
+
+.home {
+  position: relative;
+}
